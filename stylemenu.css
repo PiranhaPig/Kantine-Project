@@ -1,0 +1,297 @@
+#header {
+    background-color: #014f59;
+    padding: 0px 10px;
+    color: black;
+    text-align: center;
+    height: 200px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100.5%;
+    transition: 0.3s;
+    padding-right: 0px;
+}
+
+
+#topButton1 {
+    background-color: #f26c51;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 32px 24px;
+    text-decoration: none;
+    border: 0px;
+    height: 200px;
+    min-width: 205px;
+    transition: 0.3s;
+    margin-left: 0px;
+    display: block;
+    float: inline-end;
+}
+
+#topButton2 {
+    background-color: #f26c51;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 32px 24px;
+    text-decoration: none;
+    border: 0px;
+    height: 200px;
+    min-width: 205px;
+    transition: 0.3s;
+    margin-left: 0px;
+    display: block;
+    float: inline-end;
+}
+
+#topButton3 {
+    background-color: #f26c51;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 32px 24px;
+    text-decoration: none;
+    border: 0px;
+    height: 200px;
+    min-width: 205px;
+    transition: 0.3s;
+    margin-left: 0px;
+    display: block;
+    float: inline-end;
+}
+
+#topButton1:hover {
+    background-color: #f35636;
+    position: relative;
+    top: 7px;
+    transition: 0.15s;
+    text-decoration: none;
+
+}
+
+#topButton1:active {
+    position: relative;
+    top: 0px;
+
+}
+
+#topButton2:hover {
+    background-color: #f35636;
+    position: relative;
+    top: 7px;
+    transition: 0.15s;
+    text-decoration: none;
+
+}
+
+#topButton2:active {
+    position: relative;
+    top: 0px;
+
+}
+
+#topButton3:hover {
+    background-color: #f35636;
+    position: relative;
+    top: 7px;
+    transition: 0.15s;
+    text-decoration: none;
+
+}
+
+#topButton3:active {
+    position: relative;
+    top: 0px;
+
+}
+
+#Logo {
+    height: 195px;
+    width: auto;
+    float: left;
+    transition: 0.3s;
+    margin-top: 3px;
+}
+
+.loginText {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 365px
+}
+
+form {
+    max-width: 200px;
+}
+
+.submitBtn {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 150px;
+    background-color: #f26c51;
+    border: none;
+    width: 367px;
+    height: 64px;
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.submitBtn:hover {
+    background-color: #f39481;
+    position: relative;
+    top: 3px;
+    transition: 0.15s;
+    text-decoration: none;
+}
+
+.submitBtn:active {
+    position: relative;
+    top: 0px;
+
+}
+
+.textLg {
+    padding-top: 50px;
+    margin: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: block;
+    font-size: 41px;
+    background-color: #004f59;
+    color: #f26c51;
+    margin-top: 20px;
+    font-family: 'Outfit', sans-serif;
+    width: 367.5px;
+}
+
+#loginLogo {
+    width: 381px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    padding: 64px;
+    margin-top: 125px;
+    margin-bottom: -185px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .hmButton {
+    border: none;
+    color: #014f59;
+    padding: 0px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f35636;
+    transition: 0.5s;
+  }
+  .hmButton:hover {
+    border: none;
+    color: #f35636;
+    padding: 0px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #014f59;
+  }
+  .hmButton2 {
+    border: none;
+    color: #f35636;
+    padding: 0px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #014f59;
+    transition: 0.5s;
+  }
+  .hmButton2:hover {
+    border: none;
+    color: #014f59;
+    padding: 0px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f35636;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+  #broodjes{
+      height: auto;
+      width: 424px;
+  }
+  #drinks{
+    height: auto;
+    width: 424px;
+}
+  
